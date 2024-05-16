@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the model from the .pkl file
-with open('Model.pkl', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Define the Streamlit app
